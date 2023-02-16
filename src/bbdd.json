@@ -1,0 +1,25 @@
+{
+    "header": {
+            "title": "Alejandro Poveda Bisquert",
+            "subtitle": "Programador ForntEnd",
+            "image": "url aleatoria"
+        },
+    "menu": [
+        {
+            "title": "Sobre Mi", 
+            "url":"sobre-mi"
+        },
+        {
+            "title": "Mis Proyectos", 
+            "url":"proyectos"
+        },
+        {
+            "title": "Servicios", 
+            "url":"servicios"
+        },
+        {
+            "title": "Contacto", 
+            "url":"contacto"
+        }
+    ]    
+}
