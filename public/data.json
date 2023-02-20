@@ -1,0 +1,152 @@
+{
+    "portfolio":
+        {
+            "logos":
+            {
+                "logoGrande": "logo-grande.svg",
+                "logoPequenyo": "logo-pequenyo.svg",
+                "bannerLogoGrande": "banner-logo-grande.svg",
+                "bannerLogoPequenyo": "banner-logo-pequenyo.svg"
+            },
+            "rrss":[
+                {
+                    "type": "email",
+                    "url": "email"
+                },
+                {
+                    "type": "github",
+                    "url": "github"
+                },
+                {
+                    "type": "instagram",
+                    "url": "instagram"
+                },
+                {
+                    "type": "twitter",
+                    "url": "twitter"
+                }
+            ],
+            "header":
+                {
+                    "title": "Alejandro Poveda Bisquert",
+                    "subtitle": "Programador ForntEnd"
+                },
+            "menu": [
+                {
+                    "title": "Sobre Mi", 
+                    "url":"sobre-mi"
+                },
+                {
+                    "title": "Mis Proyectos", 
+                    "url":"proyectos"
+                },
+                {
+                    "title": "Servicios", 
+                    "url":"servicios"
+                },
+                {
+                    "title": "Contacto", 
+                    "url":"contacto"
+                }
+            ],
+            "about":{
+                "body": "pretium iaculis porta. Duis facilisis vel sem quis auctor. Quisque mattis libero quis massa iaculis, eu luctus erat euismod. Curabitur at turpis libero. Nulla condimentum eros lectus, quis consequat eros sodales id. Donec porttitor, turpis in consequat mollis, massa metus feugiat felis, in elementum est quam quis nunc. Praesent imperdiet, massa in eleifend pharetra, justo dolor faucibus magna, id pharetra mi magna at orci. "
+            },
+            "skills":[
+                {
+                    "id": "skill-1",
+                    "title": "React",
+                    "image": "react-logo.png"
+                },
+                {
+                    "id": "skill-2",
+                    "title": "Tailwind",
+                    "image": "tailwind-logo.png"
+                },
+                {
+                    "id": "skill-3",
+                    "title": "JavaScript",
+                    "image": "JavaScript-logo.png"
+                },
+                {
+                    "id": "skill-4",
+                    "title": "HTML",
+                    "image": "html-logo.png"
+                },
+                {
+                    "id": "skill-5",
+                    "title": "CSS",
+                    "image": "css-logo.png"
+                },
+                {
+                    "id": "skill-6",
+                    "title": "SASS",
+                    "image": "sass-logo.png"
+                },
+                {
+                    "id": "skill-7",
+                    "title": "Laravel",
+                    "image": "laravel-logo.png"
+                },
+                {
+                    "id": "skill-8",
+                    "title": "Bootstrap",
+                    "image": "bootstrap-logo.png"
+                }
+            ],
+            "projects":[
+                {
+                    "id": "project-1",
+                    "title": "trabajos",
+                    "body": "datos de los trabajos",
+                    "links":{
+                        "webLink": "enlace a la web",
+                        "gitHubLink": "enlace a github"
+                    },
+                    "image": "1"
+                }
+                ,
+                {
+                    "id": "project-2",
+                    "title": "trabajos",
+                    "body": "datos de los trabajos",
+                    "links":{
+                        "webLink": "enlace a la web",
+                        "gitHubLink": "enlace a github"
+                    },
+                    "image": "1"
+                }
+                ,
+                {
+                    "id": "project-3",
+                    "title": "trabajos",
+                    "body": "datos de los trabajos",
+                    "links":{
+                        "webLink": "enlace a la web",
+                        "gitHubLink": "enlace a github"
+                    },
+                    "image": "1"
+                }
+            ],
+            "services":[
+                {
+                    "id": "service-1",
+                    "title": "servicios",
+                    "body": "datos de los servicios",
+                    "image": "1"
+                },
+                {
+                    "id": "service-2",
+                    "title": "servicios",
+                    "body": "datos de los servicios",
+                    "image": "1"
+                },
+                {
+                    "id": "service-3",
+                    "title": "servicios",
+                    "body": "datos de los servicios",
+                    "image": "1"
+                }
+            ]
+        }
+}

@@ -1,15 +1,21 @@
-import bbdd from "../bbdd.json"
 
-const ApMenu = ()=>{
-    const data = bbdd.menu
-    const listarMenu = data.map(menu=>
-        <li key={menu.url}>{menu.title}</li>
-
+const ApMenu = (passData)=>{
+    const menu = passData.data.menu
+    const logos = passData.data.logos
+    const logo = logos && <img src={logos && logos.logoGrande} alt="Perfil" width="300px"/>
+    const listarMenu = menu && menu.map((listMenu)=>
+        <li key={listMenu.url}>{listMenu.title}</li>
     )
+
     return(
-        <div className="link-list">
-            <ul>{listarMenu}</ul>
-        </div>
+        <nav>
+            <div>
+                {logo}
+            </div>
+            <div className="link-list">
+                <ul>{listarMenu}</ul>
+            </div>
+        </nav>
     )
 }
 
