@@ -9,7 +9,7 @@ const ApHeader = (passData)=>{
                 <p className="blur-none">{header && header.title}</p>
                 <p className="blur-none">{header && header.subtitle}</p>
             </div>
-            <div className="absolute bottom-[-200px] mx-auto w-full">
+            <div className="absolute bottom-[-150px] mx-auto w-full">
                 {profile} 
             </div>
 
