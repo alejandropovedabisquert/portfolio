@@ -103,7 +103,7 @@
                         "webLink": "enlace a la web",
                         "gitHubLink": "enlace a github"
                     },
-                    "image": "1"
+                    "image": "logo-pequenyo.svg"
                 }
                 ,
                 {
@@ -114,7 +114,7 @@
                         "webLink": "enlace a la web",
                         "gitHubLink": "enlace a github"
                     },
-                    "image": "1"
+                    "image": "logo-pequenyo.svg"
                 }
                 ,
                 {
@@ -125,7 +125,7 @@
                         "webLink": "enlace a la web",
                         "gitHubLink": "enlace a github"
                     },
-                    "image": "1"
+                    "image": "logo-pequenyo.svg"
                 }
             ],
             "services":[
@@ -133,19 +133,19 @@
                     "id": "service-1",
                     "title": "servicios",
                     "body": "datos de los servicios",
-                    "image": "1"
+                    "image": "logo-pequenyo.svg"
                 },
                 {
                     "id": "service-2",
                     "title": "servicios",
                     "body": "datos de los servicios",
-                    "image": "1"
+                    "image": "logo-pequenyo.svg"
                 },
                 {
                     "id": "service-3",
                     "title": "servicios",
                     "body": "datos de los servicios",
-                    "image": "1"
+                    "image": "logo-pequenyo.svg"
                 }
             ]
         }

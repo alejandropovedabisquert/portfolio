@@ -1,16 +1,22 @@
+import ApCard from "./ApCard"
 
 const ApServices = (passData) =>{
     const services = passData.data.services
 
     const listServices = services && services.map((service) =>
-    <li key={service.id}><p>{service.image}</p><p>{service.title}</p><span>{service.body}</span></li>
-)    
+        <ApCard
+            key={service.id} 
+            title={service.title}
+            body={service.body} 
+            image={service.image} 
+        />
+    )    
     return(
-        <div className="services">
+        <div className="services text-center">
             <h1>Mis servicios</h1>
-            <ul>
+            <div className="grid grid-cols-3 gap-4">
                 {listServices}             
-            </ul>
+            </div>
         </div>
     )
 

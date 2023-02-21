@@ -9,12 +9,12 @@ const ApFooter = (passData) =>{
     )
     
     return(
-        <div className="footer">
-            <div>
-                {footer && footer.title}
-                {footer && footer.subtitle}
+        <div className="footer grid grid-cols-2">
+            <div className="flex flex-row">
+                <p>{footer && footer.title}</p>
+                <span>{footer && footer.subtitle}</span>
             </div>
-            <div>
+            <div className="flex flex-row">
                 {rrssList}
             </div>
         </div>

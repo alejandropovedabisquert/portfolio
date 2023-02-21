@@ -15,11 +15,11 @@ function App() {
     <p>Hubo un error al cargar los datos</p>
   }
   return (
-    <div className="main container mx-auto">
+    <div className="main">
       {/* Pasar datos de titulos de secciones como propiedades */}
       <ApMenu data={data}/>
       <ApHeader data={data}/>
-      <div className="container 2xl">
+      <div className="container mx-auto mt-40">
         <div className="flex flex-row">
           <ApAbout data={data}/>
           <ApSkills data={data}/>

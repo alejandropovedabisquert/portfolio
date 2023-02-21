@@ -1,12 +1,14 @@
+import ApCard from "./ApCard"
 
 const ApSkills = (passData) =>{
     const skills = passData.data.skills
 
     const listSkills = skills && skills.map((skill) =>
-        <div key={skill.id}>
-            <img className="w-1/2" src={skill && skill.image} alt={skill.title} />
-            <span>{skill.title}</span>
-        </div>
+        <ApCard 
+            key={skill.id} 
+            title={skill.title} 
+            image={skill.image} 
+        />
     )
 
     return(
