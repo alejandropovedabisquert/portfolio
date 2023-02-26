@@ -34,19 +34,19 @@
             "menu": [
                 {
                     "title": "Sobre Mi", 
-                    "url":"sobre-mi"
+                    "url":"about"
                 },
                 {
                     "title": "Mis Proyectos", 
-                    "url":"proyectos"
+                    "url":"projects"
                 },
                 {
                     "title": "Servicios", 
-                    "url":"servicios"
+                    "url":"services"
                 },
                 {
                     "title": "Contacto", 
-                    "url":"contacto"
+                    "url":"contact"
                 }
             ],
             "about":{

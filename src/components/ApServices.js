@@ -12,7 +12,7 @@ const ApServices = (passData) =>{
         />
     )    
     return(
-        <div className="services text-center">
+        <div id="services" className="text-center">
             <h1>Mis servicios</h1>
             <div className="grid grid-cols-3 gap-4">
                 {listServices}             

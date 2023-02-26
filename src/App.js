@@ -1,11 +1,11 @@
-import ApAbout from "./components/ApAbout";
+import ApAbout from "./components/ApAbout/ApAbout";
 import ApContact from "./components/ApContact";
 import ApFooter from "./components/ApFooter";
 import ApHeader from "./components/ApHeader";
-import ApMenu from "./components/ApMenu";
-import ApProjects from "./components/ApProjects";
+import ApMenu from "./components/ApMenu/ApMenu";
+import ApProjects from "./components/ApProjects/ApProjects";
 import ApServices from "./components/ApServices";
-import ApSkills from "./components/ApSkills";
+import ApSkills from "./components/ApSkills/ApSkills";
 import FetchingData from "./components/hooks/FetchingData";
 
 function App() {
@@ -18,10 +18,9 @@ function App() {
       <div>
         <ApMenu data={data}/>
         <div className="main">
-          {/* Pasar datos de titulos de secciones como propiedades */}
           <ApHeader data={data}/>
           <div className="container mx-auto mt-40">
-            <div className="flex flex-row">
+            <div className="grid grid-cols-1 md:flex flex-row">
               <ApAbout data={data}/>
               <ApSkills data={data}/>
             </div>

@@ -5,16 +5,20 @@ const ApCard = (props) =>{
     const body = props.body
     const image = props.image
     const links = props.links
-
+    const classImage = props.classImage
+    const classCard = props.classCard
+    const classTitle = props.classTitle
+    const borderComputer = props.borderComputer
+    
     return (
-        <div className="carta contenedor">
-            <div className="contenedor imagen">
-                <img src={image} alt={title} width="200px"/>
+        <div className={`carta ${classCard}`}>
+            <div style={borderComputer ? {backgroundImage: `url(${borderComputer})`, backgroundSize:`100%`, backgroundRepeat: `no-repeat`, height: `23rem`} :null} className="contenedor imagen">
+                <img src={image} alt={title} className={`${classImage}`}/>
             </div>
-            <div className="carta contenido">
+            <div className="contenido relative">
                 {
                     title ?
-                        <div className="carta titulo">
+                        <div className={`titulo ${classTitle}`}>
                             <h1>{title}</h1>
                         </div>
                     :null

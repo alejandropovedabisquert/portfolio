@@ -9,7 +9,7 @@ const ApFooter = (passData) =>{
     )
     
     return(
-        <div className="footer grid grid-cols-2">
+        <div id="footer" className="grid grid-cols-2">
             <div className="flex flex-row">
                 <p>{footer && footer.title}</p>
                 <span>{footer && footer.subtitle}</span>
