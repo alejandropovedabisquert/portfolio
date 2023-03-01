@@ -4,7 +4,7 @@ const ApHeader = (passData)=>{
 
     return(
         <div id="header">
-            <div style={{backgroundImage: `url(${logos && logos.bannerLogoGrande})`}} className="bg-cover bg-center h-screen text-center items-center brightness-90"></div>
+            <div style={{backgroundImage: `url(${logos && logos.fondoTeclado})`}} className="bg-cover bg-fixed bg-center h-screen text-center items-center brightness-50"></div>
             <div className="absolute bottom-[-150px] mx-auto w-full">
                 {profile} 
             </div>

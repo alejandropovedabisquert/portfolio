@@ -6,9 +6,9 @@ const ApSkills = (passData) =>{
 
     const listSkills = skills && skills.map((skill) =>
         <ApCard 
-            classImage="w-20 sm:w-24 lg:w-28"
-            classCard="skills grid content-center justify-center mb-2"
-            classTitle="relative top-[-5px] mx-auto opacity-0 border-2 border-secondary-color"
+            classImage="w-20 mt-1 ml-1 sm:w-24 lg:w-16"
+            classCard="skills flex items-center border-b-2 border-b-secondary-color shadow-lg"
+            classContent="relative text-xl w-full"
             key={skill.id} 
             title={skill.title} 
             image={skill.image} 

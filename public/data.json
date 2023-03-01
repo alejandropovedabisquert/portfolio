@@ -6,7 +6,8 @@
                 "logoGrande": "logo-grande.svg",
                 "logoPequenyo": "logo-pequenyo.svg",
                 "bannerLogoGrande": "banner-logo-grande.svg",
-                "bannerLogoPequenyo": "banner-logo-pequenyo.svg"
+                "bannerLogoPequenyo": "banner-logo-pequenyo.svg",
+                "fondoTeclado": "fondo-teclado.jpg"
             },
             "rrss":[
                 {
@@ -66,17 +67,17 @@
                 {
                     "id": "skill-3",
                     "title": "JavaScript",
-                    "image": "JavaScript-logo.png"
+                    "image": "javascript-logo.svg"
                 },
                 {
                     "id": "skill-4",
                     "title": "HTML",
-                    "image": "html-logo.png"
+                    "image": "html-logo.svg"
                 },
                 {
                     "id": "skill-5",
                     "title": "CSS",
-                    "image": "css-logo.png"
+                    "image": "css-logo.svg"
                 },
                 {
                     "id": "skill-6",
