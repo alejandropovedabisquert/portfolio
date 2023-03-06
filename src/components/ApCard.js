@@ -9,11 +9,10 @@ const ApCard = (props) =>{
     const classCard = props.classCard
     const classTitle = props.classTitle
     const classContent = props.classContent
-    const borderComputer = props.borderComputer
     
     return (
         <div className={`carta ${classCard}`}>
-            <div style={borderComputer ? {backgroundImage: `url(${borderComputer})`, backgroundSize:`100%`, backgroundRepeat: `no-repeat`, height: `23rem`} :null} className="contenedor imagen">
+            <div className="contenedor imagen">
                 <img src={image} alt={title} className={`${classImage}`}/>
             </div>
             <div className={`contenido ${classContent}`}>

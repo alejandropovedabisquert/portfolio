@@ -10,6 +10,7 @@ import FetchingData from "./components/hooks/FetchingData";
 
 function App() {
   const {data, error} = FetchingData('data.json')
+  const titleClassStyle = "text-4xl pb-5 font-bold"
 
   if (error) {
     <p>Hubo un error al cargar los datos</p>
@@ -21,15 +22,14 @@ function App() {
           <ApHeader data={data}/>
           <div className="container mx-auto mt-40">
             <div className="grid grid-cols-1 md:flex flex-row">
-              <ApAbout data={data}/>
-              <ApSkills data={data}/>
+              <ApAbout data={data} titleClassStyle={titleClassStyle}/>
+              <ApSkills data={data} titleClassStyle={titleClassStyle}/>
             </div>
-            <ApProjects data={data}/>
-            <ApServices data={data}/>
-            <ApContact/>
+            <ApProjects data={data} titleClassStyle={titleClassStyle}/>
+            <ApServices data={data} titleClassStyle={titleClassStyle}/>
           </div>      
         </div>
-        <ApFooter data={data}/>
+        <ApFooter data={data} titleClassStyle={titleClassStyle}/>
       </div>
   );
 }

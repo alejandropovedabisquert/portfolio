@@ -3,6 +3,7 @@ import "./ApSkills.css"
 
 const ApSkills = (passData) =>{
     const skills = passData.data.skills
+    const titleClassStyle = passData.titleClassStyle
 
     const listSkills = skills && skills.map((skill) =>
         <ApCard 
@@ -18,7 +19,7 @@ const ApSkills = (passData) =>{
     return(
         <div id="skills" className="container mx-auto text-center">
             <div className="p-8">
-                <h1 className="text-4xl pb-5 font-bold">Mis conocimientos</h1>
+                <h1 className={titleClassStyle}>Mis conocimientos</h1>
                 <div className="grid grid-cols-3 gap-4 lg:grid-cols-4 ">
                     {listSkills}
                 </div> 

@@ -7,7 +7,9 @@
                 "logoPequenyo": "logo-pequenyo.svg",
                 "bannerLogoGrande": "banner-logo-grande.svg",
                 "bannerLogoPequenyo": "banner-logo-pequenyo.svg",
-                "fondoTeclado": "fondo-teclado.jpg"
+                "fondoTeclado": "fondo-teclado.jpg",
+                "fondoWave": "fondo-wave.svg",
+                "fondoFooterWave": "fondo-footer-wave.svg"
             },
             "rrss":[
                 {
