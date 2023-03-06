@@ -17,10 +17,10 @@ const ApSkills = (passData) =>{
     )
 
     return(
-        <div id="skills" className="container mx-auto text-center">
+        <div id="skills" className="transition-all container mx-auto text-center">
             <div className="p-8">
                 <h1 className={titleClassStyle}>Mis conocimientos</h1>
-                <div className="grid grid-cols-3 gap-4 lg:grid-cols-4 ">
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
                     {listSkills}
                 </div> 
             </div>
