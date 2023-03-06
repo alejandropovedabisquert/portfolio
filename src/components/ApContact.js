@@ -1,7 +1,6 @@
 
 const ApContact = (passData) =>{
     const titleClassStyle = passData.titleClassStyle
-    console.log(titleClassStyle);
     return(
         <div id="contact" className="text-center">
             <h1 className={titleClassStyle}>Contacto</h1>

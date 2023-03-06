@@ -1,5 +1,4 @@
 import ApAbout from "./components/ApAbout/ApAbout";
-import ApContact from "./components/ApContact";
 import ApFooter from "./components/ApFooter";
 import ApHeader from "./components/ApHeader";
 import ApMenu from "./components/ApMenu/ApMenu";
@@ -20,11 +19,9 @@ function App() {
         <ApMenu data={data}/>
         <div className="main">
           <ApHeader data={data}/>
-          <div className="container mx-auto mt-40">
-            <div className="grid grid-cols-1 md:flex flex-row">
-              <ApAbout data={data} titleClassStyle={titleClassStyle}/>
-              <ApSkills data={data} titleClassStyle={titleClassStyle}/>
-            </div>
+          <div className="container mx-auto mt-10">
+            <ApAbout data={data} titleClassStyle={titleClassStyle}/>
+            <ApSkills data={data} titleClassStyle={titleClassStyle}/>
             <ApProjects data={data} titleClassStyle={titleClassStyle}/>
             <ApServices data={data} titleClassStyle={titleClassStyle}/>
           </div>      
