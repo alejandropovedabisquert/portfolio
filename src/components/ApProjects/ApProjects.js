@@ -18,9 +18,9 @@ const ApProjects = (passData) =>{
     )
     
     return(
-        <div id="projects" className="text-center">
+        <div id="projects" className="text-center md:pt-8">
             <h1 className={titleClassStyle}>Proyectos</h1>
-            <div className="grid gap-4 lg:grid-cols-3">
+            <div className="grid gap-4 p-8 md:grid-cols-2 md:p-0 lg:grid-cols-3">
                 {listProjects}
             </div>
         </div>
