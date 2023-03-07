@@ -22,12 +22,8 @@
                     "url": "github"
                 },
                 {
-                    "type": "instagram",
-                    "url": "instagram"
-                },
-                {
-                    "type": "twitter",
-                    "url": "twitter"
+                    "type": "linkedin",
+                    "url": "linkedin"
                 }
             ],
             "header":
