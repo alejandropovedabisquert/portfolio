@@ -9,7 +9,7 @@ const ApAbout = (passData) =>{
             <div className="mx-auto">
                 {profile} 
             </div>
-            <div className="p-8 col-span-2">
+            <div className="p-8 md:pr-0 col-span-2 lg:pr-8">
                 <h1 className={`${titleClassStyle} text-left`}>Sobre mi</h1>
                 <p className="text-justify">{about && about.body}</p>
                 <div className="text-left">

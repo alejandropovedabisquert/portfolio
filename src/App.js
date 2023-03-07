@@ -23,7 +23,7 @@ function App() {
             <ApAbout data={data} titleClassStyle={titleClassStyle}/>
             <ApSkills data={data} titleClassStyle={titleClassStyle}/>
             <ApProjects data={data} titleClassStyle={titleClassStyle}/>
-            <ApServices data={data} titleClassStyle={titleClassStyle}/>
+            {/* <ApServices data={data} titleClassStyle={titleClassStyle}/> */}
           </div>      
         </div>
         <ApFooter data={data} titleClassStyle={titleClassStyle}/>
