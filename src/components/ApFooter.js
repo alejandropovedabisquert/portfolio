@@ -13,7 +13,7 @@ const ApFooter = (passData) =>{
     
     return(
         <div id="footer" style={{backgroundImage: `url(${fondoFooter && fondoFooter.fondoFooterWave})`}} className="bg-cover bg-center">
-            <ApContact titleClassStyle={passData.titleClassStyle}/>
+            <ApContact titleClassStyle={passData.titleClassStyle} buttonClassStyle={passData.buttonClassStyle}/>
             <div className="flex flex-row justify-center pb-4">
                 <ul className="flex flex-row space-x-3">
                     {rrssList}

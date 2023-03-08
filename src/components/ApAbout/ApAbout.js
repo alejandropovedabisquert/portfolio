@@ -4,7 +4,7 @@ const ApAbout = (passData) =>{
     const about = passData.data.about
     const rrssData = passData.data.rrss
     const titleClassStyle = passData.titleClassStyle
-    const buttonClassStyle = "border-2 border-secondary-color p-2 px-4 mt-4 inline-block rounded-md shadow-md transition-all font-bold duration-300 relative hover:text-white before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:content-[''] before:absolute before:top-0 before:left-0 before:w-0 before:-z-10 before:bg-primary-color before:transition-all before:duration-300 before:hover:w-full"
+    const buttonClassStyle = passData.buttonClassStyle
     const profile = passData.data.logos && <img className="rounded-md" src={passData.data.logos && passData.data.logos.perfil} alt="Perfil" width="300px"/>
     const rrssList = rrssData && rrssData.map((rrss) =>
         <ApRRSS key={rrss.type} rrss={rrss}/>
@@ -15,9 +15,9 @@ const ApAbout = (passData) =>{
                 {profile} 
             </div>
             <div className="p-8 md:pr-0 col-span-2 lg:pr-8">
-                <h1 className={`${titleClassStyle} text-left`}>Sobre mi</h1>
+                <h1 className={`${titleClassStyle} grid-cols-about w-96`}>Sobre mi</h1>
                 <div className="flex flex-row justify-left pb-4">
-                    <ul className="flex flex-row space-x-3">
+                    <ul className="flex flex-row space-x-3 ml-10">
                         {rrssList}
                     </ul>
                 </div>

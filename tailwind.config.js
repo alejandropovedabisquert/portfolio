@@ -5,6 +5,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        'title': '1fr auto 1fr',
+        'about': '.1fr auto 1fr'
+      },
+      gridTemplateRows: {
+        'title': '16px 0'
+      },
       colors:{
         'primary-color': '#FF844B',
         'secondary-color': '#ED9200',
