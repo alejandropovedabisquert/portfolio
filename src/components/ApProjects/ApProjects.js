@@ -19,9 +19,9 @@ const ApProjects = (passData) =>{
     )
     
     return(
-        <div id="projects" className="text-center md:pt-8">
-            <h1 className={titleClassStyle}>Proyectos</h1>
-            <div className="grid gap-4 p-8 sm:grid-cols-2 md:p-0 lg:p-8 lg:grid-cols-3">
+        <div id="projects" className="text-center p-8 md:pt-8">
+            <h1 className={`${titleClassStyle} w-full md:w-7/12 mx-auto pb-4`}>Proyectos</h1>
+            <div className="grid gap-4 sm:grid-cols-2 md:p-0 lg:grid-cols-3">
                 {listProjects}
             </div>
         </div>
