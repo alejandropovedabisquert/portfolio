@@ -8,14 +8,14 @@ const ApFooter = (passData) =>{
     const rrssData = data.rrss
     
     const rrssList = rrssData && rrssData.map((rrss) =>
-        <ApRRSS key={rrss.type} rrss={rrss}/>
+        <ApRRSS key={rrss.type} rrss={rrss} size={48}/>
     )
     
     return(
         <div id="footer" style={{backgroundImage: `url(${fondoFooter && fondoFooter.fondoFooterWave})`}} className="bg-cover bg-center">
             <ApContact titleClassStyle={passData.titleClassStyle} buttonClassStyle={passData.buttonClassStyle}/>
-            <div className="flex flex-row justify-center pb-4">
-                <ul className="flex flex-row space-x-3">
+            <div className="flex flex-row justify-center pb-10 pt-20">
+                <ul className="flex flex-row space-x-12">
                     {rrssList}
                 </ul>
             </div>
