@@ -1,4 +1,4 @@
-import ApRRSS from "../../ApRRRSS"
+import ApRRSS from "../ApRRRSS"
 import "./ApAbout.css"
 const ApAbout = (passData) =>{
     const about = passData.data.about
