@@ -23,7 +23,7 @@ const ApContact = (passData) =>{
     }
 
     return(
-        <div id="contact" className="text-left container mx-auto p-8">
+        <div id="contact" className="text-left container mx-auto pb-8">
             <div className="py-8 lg:pb-8 px-4 md:px-8 mx-auto max-w-screen-md bg-white rounded-md drop-shadow-lg">
              
             <h1 className={`${titleClassStyle} pb-4 md:pb-8`}>Contáctame</h1>
