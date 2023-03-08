@@ -5,11 +5,11 @@ const ApRRSS = (props) =>{
     return (
         <li>
             {rrss.type === 'linkedin' 
-                ?<a href={rrss.url}><FaLinkedinIn size={24}/></a>
+                ?<a href={rrss.url} target="_blank"><FaLinkedinIn size={24}/></a>
                 :rrss.type === 'github'
-                ?<a href={rrss.url}><FaGithub size={24}/></a>
+                ?<a href={rrss.url} target="_blank"><FaGithub size={24}/></a>
                 :rrss.type === 'email'
-                ?<a href={rrss.url}><FaRegEnvelope size={24}/></a>
+                ?<a href={rrss.url} target="_blank"><FaRegEnvelope size={24}/></a>
                 :null
             }
         </li>

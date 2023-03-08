@@ -15,15 +15,15 @@
             "rrss":[
                 {
                     "type": "email",
-                    "url": "email"
+                    "url": "mailto:alejandro2001bis@gmail.com"
                 },
                 {
                     "type": "github",
-                    "url": "github"
+                    "url": "https://github.com/alex2001bis"
                 },
                 {
                     "type": "linkedin",
-                    "url": "linkedin"
+                    "url": "https://www.linkedin.com/in/alejandro-poveda-bisquert/"
                 }
             ],
             "header":
