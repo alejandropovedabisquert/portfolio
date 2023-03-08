@@ -22,7 +22,7 @@ const ApMenu = (passData)=>{
             <div className="grid">
                 <div className="link-list w-full">
                     <ApMenuButton open={open} setOpen={setOpen}/>
-                    <div className={`circle-menu origin-[100%_0%] absolute right-0 rounded-bl-[500px] ease duration-300 ${open ? 'w-[500px] h-[500px] bg-primary-color animate-menu-jelly': 'w-0 h-0'}`}>
+                    <div className={`circle-menu shadow-xl origin-[100%_0%] absolute right-0 rounded-bl-[500px] ease duration-300 ${open ? 'w-[500px] h-[500px] bg-primary-color animate-menu-jelly': 'w-0 h-0'}`}>
                         <div className={`${open ? 'transition-menu': 'opacity-0'} `}>
                             {
                                 open && 
