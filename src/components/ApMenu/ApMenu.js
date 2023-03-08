@@ -26,7 +26,7 @@ const ApMenu = (passData)=>{
                         <div className={`${open ? 'transition-menu': 'opacity-0'} `}>
                             {
                                 open && 
-                                        <ul className="absolute transition-all right-[60px] md:right-[100px] top-[70px] md:top-[100px] leading-[40px] md:leading-[50px] text-3xl md:text-4xl text-center">{listarMenu}</ul>
+                                        <ul className="absolute transition-all right-[80px] md:right-[100px] top-[70px] md:top-[100px] leading-[40px] md:leading-[50px] text-3xl md:text-4xl text-center">{listarMenu}</ul>
                             }
                         </div>
                     </div>

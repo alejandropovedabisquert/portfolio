@@ -37,12 +37,12 @@
                     "url":"about"
                 },
                 {
-                    "title": "Mis Proyectos", 
-                    "url":"projects"
+                    "title": "Habilidades", 
+                    "url":"skills"
                 },
                 {
-                    "title": "Servicios", 
-                    "url":"services"
+                    "title": "Proyectos", 
+                    "url":"projects"
                 },
                 {
                     "title": "Contacto", 

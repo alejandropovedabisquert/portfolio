@@ -10,7 +10,7 @@ const ApAbout = (passData) =>{
         <ApRRSS key={rrss.type} rrss={rrss}/>
     )
     return(
-        <div id="about" className="container transition-all mx-auto text-center grid grid-cols-1 md:grid-cols-3">
+        <div id="about" className="container transition-all mx-auto text-center grid grid-cols-1 md:grid-cols-3 pb-8">
             <div className="mx-auto">
                 {profile} 
             </div>
