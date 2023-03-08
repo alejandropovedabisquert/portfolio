@@ -15,9 +15,9 @@ const ApAbout = (passData) =>{
                 {profile} 
             </div>
             <div className="p-8 md:pr-0 col-span-2 lg:pr-8">
-                <h1 className={`${titleClassStyle} grid-cols-about w-96`}>Sobre mi</h1>
+                <h1 className={`${titleClassStyle} grid-cols-about md:w-96`}>Sobre mi</h1>
                 <div className="flex flex-row justify-left pb-4">
-                    <ul className="flex flex-row space-x-3 ml-10">
+                    <ul className="flex flex-row space-x-3 ml-[10%] md:ml-10">
                         {rrssList}
                     </ul>
                 </div>
