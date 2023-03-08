@@ -4,7 +4,7 @@ const ApCard = (props) =>{
     const title = props.title
     const body = props.body
     const image = props.image
-    const links = props.links
+    //const links = props.links
     const classImage = props.classImage
     const classCard = props.classCard
     const classTitle = props.classTitle

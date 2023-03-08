@@ -3,7 +3,7 @@ import ApFooter from "./components/ApFooter";
 import ApHeader from "./components/ApHeader";
 import ApMenu from "./components/ApMenu/ApMenu";
 import ApProjects from "./components/ApProjects/ApProjects";
-import ApServices from "./components/ApServices";
+//import ApServices from "./components/ApServices";
 import ApSkills from "./components/ApSkills/ApSkills";
 import FetchingData from "./components/hooks/FetchingData";
 
