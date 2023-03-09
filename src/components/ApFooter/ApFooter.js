@@ -1,5 +1,5 @@
-import ApContact from "./ApContact"
-import ApRRSS from "./ApRRRSS";
+import ApContact from "../ApContact/ApContact"
+import ApRRSS from "../ApRRSS/ApRRSS";
 
 const ApFooter = (passData) =>{
     const data = passData.data

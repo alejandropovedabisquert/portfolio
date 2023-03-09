@@ -1,5 +1,4 @@
-import ApCard from "../ApCard"
-import "./ApProjects.css"
+import ApCard from "../ApCard/ApCard"
 
 const ApProjects = (passData) =>{
     const projects = passData.data.projects

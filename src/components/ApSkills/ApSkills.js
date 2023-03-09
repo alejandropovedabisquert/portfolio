@@ -1,5 +1,5 @@
-import ApCard from "../ApCard"
-import "./ApSkills.css"
+import ApCard from "../ApCard/ApCard"
+
 
 const ApSkills = (passData) =>{
     const skills = passData.data.skills
