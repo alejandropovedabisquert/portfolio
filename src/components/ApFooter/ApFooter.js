@@ -15,8 +15,8 @@ const ApFooter = (passData) =>{
         <ApRRSS 
             key={rrss.type} 
             rrss={rrss} 
-            classStyleSvg="w-8 h-8 md:w-12 md:h-12"
-            classStyleLink="p-4 md:p-6 block bg-white rounded-full border-2 border-secondary-color shadow-md transition-all duration-300 hover:animate-wiggle hover:text-secondary-color"
+            classStyleSvg="w-8 h-8 md:w-8 md:h-8"
+            classStyleLink="p-4 md:p-5 block bg-white rounded-full border-2 border-secondary-color shadow-md transition-all duration-300 hover:animate-wiggle hover:text-secondary-color"
 
         />
     )
@@ -27,14 +27,14 @@ const ApFooter = (passData) =>{
                 titleClassStyle={passData.titleClassStyle} 
                 buttonClassStyle={passData.buttonClassStyle}
             />
-            <div className="flex flex-row justify-center pb-10 pt-20 items-center">
+            <div className="flex flex-row justify-center pb-10 pt-10 items-center">
                 <ul className="flex flex-row space-x-6 md:space-x-12 items-center">
                     {rrssList}
                 </ul>
             </div>
-            <div className="text-center">
-                <p>{footer && footer.title}</p>
-                <span>{footer && footer.subtitle}</span>
+            <div className="md:flex w-auto text-center md:justify-center md:space-x-1.5 text-lg font-bold pb-8">
+                <p>Creado por {footer && footer.title}</p>
+                <span>| {footer && footer.subtitle}</span>
             </div>
         </div>
     )
