@@ -51,7 +51,7 @@ const ApContact = (passData) =>{
                     <button type="submit" className={buttonClassStyle}>Enviar</button>
                 </form>
                 <button onClick={prueba}>Pureba</button>
-                <div className={`${statusMessage.opacity === true ? 'opacity-100': 'opacity-0'} duration-500 transition-all p-4 bg-green-500 absolute -bottom-7 right-0 md:-right-28 md:-bottom-7 drop-shadow-lg rounded-md w-auto`}>
+                <div className={`${statusMessage.opacity === true ? 'opacity-100': 'opacity-0'} duration-500 transition-all p-4 bg-green-500 absolute -bottom-7 mx-auto left-0 right-0 drop-shadow-lg rounded-md w-auto md:w-80`}>
                     {statusMessage.type === 'success' ? <div className="flex items-center"><FaRegCheckCircle className="mr-2"/>{statusMessage.message}</div>:null}
                 </div>
                 {console.log(statusMessage)}
