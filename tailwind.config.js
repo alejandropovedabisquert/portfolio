@@ -51,9 +51,19 @@ module.exports = {
           '96.666667%': { transform: 'matrix3d(1.00056, 0, 0, 0, 0, 1.00056, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)' },
           '100%': { transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)'},
         },
+        wiggle:{
+          '0%, 7%': {transform: 'rotateZ(0)'},
+          '15%': {transform: 'rotateZ(-15deg)'},
+          '20%': {transform: 'rotateZ(10deg)'},
+          '25%': {transform: 'rotateZ(-10deg)'},
+          '30%': {transform: 'rotateZ(6deg)'},
+          '35%': {transform: 'rotateZ(-4deg)'},
+          '40%, 100%': {transform: 'rotateZ(-0)'},
+        }
       },
       animation:{
         'menu-jelly': 'jelly 0.8s linear forwards',
+        'wiggle': 'wiggle 1s linear infinite'
       }
     },
   },

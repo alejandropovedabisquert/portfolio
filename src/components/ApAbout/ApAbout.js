@@ -14,7 +14,8 @@ const ApAbout = (passData) =>{
         <ApRRSS 
             key={rrss.type} 
             rrss={rrss} 
-            size={28}
+            size={34}
+            classStyleSvg="transition-all duration-300 hover:animate-wiggle hover:text-primary-color"
         />
     )
     return(
@@ -25,14 +26,14 @@ const ApAbout = (passData) =>{
             </div>
             <div className="p-8 md:pr-0 col-span-2 lg:pr-8">
                 <h1 className={`${titleClassStyle} grid-cols-title md:grid-cols-about md:w-96`}>Sobre mi</h1>
-                <div className="flex flex-row justify-left pb-4">
-                    <ul className="flex flex-row space-x-3 mx-auto md:ml-10">
-                        {rrssList}
-                    </ul>
-                </div>
                 <p className="text-justify">{about && about.body}</p>
-                <div className="text-left">
+                <div className="text-left flex flex-row items-center">
                     <a href={`https://${about && about.curriculum}`} className={buttonClassStyle}>Descargar CV</a>
+                    <div className="flex flex-row">
+                        <ul className="flex flex-row space-x-6 ml-10">
+                            {rrssList}
+                        </ul>
+                    </div>
                 </div>
                 
             </div>
