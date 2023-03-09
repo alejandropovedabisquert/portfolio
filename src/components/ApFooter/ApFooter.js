@@ -32,7 +32,7 @@ const ApFooter = (passData) =>{
                     {rrssList}
                 </ul>
             </div>
-            <div className="md:flex w-auto text-center md:justify-center md:space-x-1.5 text-lg font-bold pb-8">
+            <div className="md:flex w-auto text-center md:justify-center md:space-x-1.5 text-lg font-bold py-4 bg-white border-y-4 border-secondary-color">
                 <p>Creado por {footer && footer.title}</p>
                 <span>| {footer && footer.subtitle}</span>
             </div>
