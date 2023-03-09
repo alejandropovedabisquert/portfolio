@@ -4,12 +4,13 @@ const ApRRSS = (props) =>{
     const rrss = props.rrss
 
     const classStyleSvg = props.classStyleSvg
+    const classStyleLi = props.classStyleLi
     const classStyleLink = props.classStyleLink
 
     const size = props.size
 
     return (
-        <li>
+        <li className={classStyleLi}>
             {
                 rrss.type === 'linkedin' ?
                     <a href={rrss.url} target="_blank" rel="noreferrer" className={classStyleLink}><FaLinkedinIn size={size} className={classStyleSvg}/></a>
