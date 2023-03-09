@@ -15,8 +15,8 @@ const ApFooter = (passData) =>{
         <ApRRSS 
             key={rrss.type} 
             rrss={rrss} 
-            size={48}
-            classStyleLink="p-6 block bg-white rounded-full border-2 border-secondary-color shadow-md transition-all duration-300 hover:animate-wiggle hover:text-secondary-color"
+            classStyleSvg="w-8 h-8 md:w-12 md:h-12"
+            classStyleLink="p-4 md:p-6 block bg-white rounded-full border-2 border-secondary-color shadow-md transition-all duration-300 hover:animate-wiggle hover:text-secondary-color"
 
         />
     )
@@ -28,7 +28,7 @@ const ApFooter = (passData) =>{
                 buttonClassStyle={passData.buttonClassStyle}
             />
             <div className="flex flex-row justify-center pb-10 pt-20 items-center">
-                <ul className="flex flex-row space-x-12 items-center">
+                <ul className="flex flex-row space-x-6 md:space-x-12 items-center">
                     {rrssList}
                 </ul>
             </div>

@@ -7,19 +7,17 @@ const ApRRSS = (props) =>{
     const classStyleLi = props.classStyleLi
     const classStyleLink = props.classStyleLink
 
-    const size = props.size
-
     return (
         <li className={classStyleLi}>
             {
                 rrss.type === 'linkedin' ?
-                    <a href={rrss.url} target="_blank" rel="noreferrer" className={classStyleLink}><FaLinkedinIn size={size} className={classStyleSvg}/></a>
+                    <a href={rrss.url} target="_blank" rel="noreferrer" className={classStyleLink}><FaLinkedinIn className={classStyleSvg}/></a>
 
                 :rrss.type === 'github'?
-                    <a href={rrss.url} target="_blank" rel="noreferrer" className={classStyleLink}><FaGithub size={size} className={classStyleSvg}/></a>
+                    <a href={rrss.url} target="_blank" rel="noreferrer" className={classStyleLink}><FaGithub className={classStyleSvg}/></a>
 
                 :rrss.type === 'email'?
-                    <a href={rrss.url} target="_blank" rel="noreferrer" className={classStyleLink}><FaRegEnvelope size={size} className={classStyleSvg}/></a>
+                    <a href={rrss.url} target="_blank" rel="noreferrer" className={classStyleLink}><FaRegEnvelope className={classStyleSvg}/></a>
                     
                 :null
             }
