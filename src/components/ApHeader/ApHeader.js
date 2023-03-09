@@ -1,5 +1,6 @@
 const ApHeader = (passData)=>{
     const logos = passData.data.logos
+    
     const header = passData.data.header
 
     return(

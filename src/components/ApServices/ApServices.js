@@ -2,7 +2,9 @@ import ApCard from "../ApCard/ApCard"
 
 const ApServices = (passData) =>{
     const services = passData.data.services
+
     const titleClassStyle = passData.titleClassStyle
+    
     const listServices = services && services.map((service) =>
         <ApCard
             key={service.id} 

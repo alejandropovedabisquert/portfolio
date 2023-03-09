@@ -2,8 +2,8 @@ import ApCard from "../ApCard/ApCard"
 
 const ApProjects = (passData) =>{
     const projects = passData.data.projects
+
     const titleClassStyle = passData.titleClassStyle
-    // const titleClassStyle = "uppercase text-2xl tracking-widest grid grid-cols-title grid-rows-title gap-6 before:content-[''] after:content-[''] before:block after:block before:border-b-2 after:border-b-2 before:border-secondary-color after:border-secondary-color"
 
     const listProjects = projects && projects.map((project) =>
         <ApCard 

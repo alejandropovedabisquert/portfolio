@@ -1,15 +1,25 @@
 import ApRRSS from "../ApRRSS/ApRRSS"
 const ApAbout = (passData) =>{
     const about = passData.data.about
+
     const rrssData = passData.data.rrss
+
     const titleClassStyle = passData.titleClassStyle
+
     const buttonClassStyle = passData.buttonClassStyle
+
     const profile = passData.data.logos && <img className="rounded-md" src={passData.data.logos && passData.data.logos.perfil} alt="Perfil" width="300px"/>
+
     const rrssList = rrssData && rrssData.map((rrss) =>
-        <ApRRSS key={rrss.type} rrss={rrss} size={28}/>
+        <ApRRSS 
+            key={rrss.type} 
+            rrss={rrss} 
+            size={28}
+        />
     )
     return(
-        <div id="about" className="container transition-all mx-auto text-center grid grid-cols-1 md:grid-cols-3 pb-8">
+        <div 
+        id="about" className="container transition-all mx-auto text-center grid grid-cols-1 md:grid-cols-3 pb-8">
             <div className="mx-auto">
                 {profile} 
             </div>

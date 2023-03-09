@@ -3,6 +3,7 @@ import ApCard from "../ApCard/ApCard"
 
 const ApSkills = (passData) =>{
     const skills = passData.data.skills
+    
     const titleClassStyle = passData.titleClassStyle
 
     const listSkills = skills && skills.map((skill) =>
