@@ -17,6 +17,9 @@ module.exports = {
         'secondary-color': '#ED9200',
         'tertiary-color': '#12C036'
       },
+      spacing: {
+        '128': '32rem',
+      },
       keyframes:{
         jelly:{
           '0%': { transform: 'matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)' },
