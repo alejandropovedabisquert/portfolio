@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens:{
+        'ultrawide': '2000px'
+      },
       gridTemplateColumns: {
         'title': '1fr auto 1fr',
         'about': '.1fr auto 1fr'
@@ -15,10 +18,13 @@ module.exports = {
       colors:{
         'primary-color': '#FF844B',
         'secondary-color': '#ED9200',
-        'tertiary-color': '#12C036'
+        'tertiary-color': '#12C036',
+        'light-gray': 'rgba(236, 236, 236, 0.85)'
       },
       spacing: {
         '128': '32rem',
+        '144': '36rem',
+        '464': '116rem'
       },
       keyframes:{
         jelly:{

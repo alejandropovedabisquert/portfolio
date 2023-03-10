@@ -98,13 +98,13 @@
             "projects":[
                 {
                     "id": "project-1",
-                    "title": "trabajo 1",
+                    "title": "Lilith's Garden",
                     "body": "Miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau",
                     "links":{
                         "webLink": "enlace a la web",
-                        "gitHubLink": "enlace a github"
+                        "gitHubLink": "https://github.com/alex2001bis/TFG/tree/main/LilithsGarden"
                     },
-                    "image": "logo-pequenyo.svg"
+                    "image": "portada-liliths-garden.png"
                 }
                 ,
                 {

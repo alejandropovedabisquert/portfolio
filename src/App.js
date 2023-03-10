@@ -23,7 +23,7 @@ function App() {
           <div className="container mx-auto mt-10">
             <ApAbout data={data} titleClassStyle={titleClassStyle} buttonClassStyle={buttonClassStyle}/>
             <ApSkills data={data} titleClassStyle={titleClassStyle}/>
-            <ApProjects data={data} titleClassStyle={titleClassStyle}/>
+            <ApProjects data={data} titleClassStyle={titleClassStyle} buttonClassStyle={buttonClassStyle}/>
             {/* <ApServices data={data} titleClassStyle={titleClassStyle}/> */}
           </div>      
         </div>

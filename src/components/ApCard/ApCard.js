@@ -21,18 +21,20 @@ const ApCard = (props) =>{
     const classContent = props.classContent
     
     return (
-            <div className={`card ${classCard}`} onClick={()=> setOpen(!open)}>
-                <div className="card-image">
-                    <img src={image} alt={title} className={`${classImage}`}/>
-                </div>
-                <div className={`card-content ${classContent}`}>
-                    {
-                        title ?
-                            <div className={`card-title ${classTitle}`}>
-                                <h1>{title}</h1>
-                            </div>
-                        :null
-                    }
+            <div>
+                <div className={`card ${classCard}`} onClick={()=> setOpen(!open)}>
+                    <div className="card-image">
+                        <img src={image} alt={title} className={`${classImage}`}/>
+                    </div>
+                    <div className={`card-content ${classContent}`}>
+                        {
+                            title ?
+                                <div className={`card-title ${classTitle}`}>
+                                    <h1>{title}</h1>
+                                </div>
+                            :null
+                        }
+                    </div>
                 </div>
                 {
                     open ? 
@@ -41,6 +43,9 @@ const ApCard = (props) =>{
                             title={title} 
                             body={body} 
                             links={links} 
+                            setOpen={setOpen}
+                            open={open}
+                            buttonClassStyle={props.buttonClassStyle}
                         /> 
                     : null
                 }
