@@ -98,8 +98,8 @@
             "projects":[
                 {
                     "id": "project-1",
-                    "title": "trabajos",
-                    "body": "datos de los trabajos",
+                    "title": "trabajo 1",
+                    "body": "Miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau",
                     "links":{
                         "webLink": "enlace a la web",
                         "gitHubLink": "enlace a github"
@@ -109,8 +109,8 @@
                 ,
                 {
                     "id": "project-2",
-                    "title": "trabajos",
-                    "body": "datos de los trabajos",
+                    "title": "trabajo 2",
+                    "body": "datos del trabajo 2",
                     "links":{
                         "webLink": "enlace a la web",
                         "gitHubLink": "enlace a github"
@@ -120,8 +120,8 @@
                 ,
                 {
                     "id": "project-3",
-                    "title": "trabajos",
-                    "body": "datos de los trabajos",
+                    "title": "trabajo 3",
+                    "body": "datos del trabajos 3",
                     "links":{
                         "webLink": "enlace a la web",
                         "gitHubLink": "enlace a github"

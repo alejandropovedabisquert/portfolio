@@ -1,12 +1,16 @@
+import { useState } from "react"
+import ApModal from "../ApModal/ApModal"
 
 const ApCard = (props) =>{
+    const [open, setOpen] = useState(false)
+
     const title = props.title
 
     const body = props.body
 
     const image = props.image
 
-    //const links = props.links
+    const links = props.links
 
     const classImage = props.classImage
 
@@ -17,27 +21,30 @@ const ApCard = (props) =>{
     const classContent = props.classContent
     
     return (
-        <div className={`carta ${classCard}`}>
-            <div className="contenedor imagen">
-                <img src={image} alt={title} className={`${classImage}`}/>
-            </div>
-            <div className={`contenido ${classContent}`}>
+            <div className={`card ${classCard}`} onClick={()=> setOpen(!open)}>
+                <div className="card-image">
+                    <img src={image} alt={title} className={`${classImage}`}/>
+                </div>
+                <div className={`card-content ${classContent}`}>
+                    {
+                        title ?
+                            <div className={`card-title ${classTitle}`}>
+                                <h1>{title}</h1>
+                            </div>
+                        :null
+                    }
+                </div>
                 {
-                    title ?
-                        <div className={`titulo ${classTitle}`}>
-                            <h1>{title}</h1>
-                        </div>
-                    :null
-                }  
-                {
-                    body ?
-                    <div className="carta cuerpo">
-                        <p>{body}</p>
-                    </div>
-                    :null
+                    open ? 
+                        <ApModal 
+                            image={image} 
+                            title={title} 
+                            body={body} 
+                            links={links} 
+                        /> 
+                    : null
                 }
             </div>
-        </div>
     )
 
 }

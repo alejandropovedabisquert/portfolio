@@ -14,7 +14,7 @@ const ApAbout = (passData) =>{
         <ApRRSS 
             key={rrss.type} 
             rrss={rrss} 
-            classStyleSvg="transition-all w-8 h-8 duration-300 hover:animate-wiggle hover:text-primary-color"
+            classStyleSvg="transition-all w-8 h-8 duration-300 hover:animate-wiggle hover:text-secondary-color"
         />
     )
     return(

@@ -3,18 +3,21 @@ import ApCard from "../ApCard/ApCard"
 const ApProjects = (passData) =>{
     const projects = passData.data.projects
 
-    const titleClassStyle = passData.titleClassStyle
+    const titleClassStyle = passData.titleClassStyle    
 
     const listProjects = projects && projects.map((project) =>
-        <ApCard 
-            classCard="projects cursor-pointer"
-            classImage="w-full h-72 object-cover mx-auto rounded-md"
-            classTitle="font-bold p-2"
-            key={project.id} 
-            title={project.title} 
-            image={project.image} 
-            links={project.links}
-        />
+        
+            <ApCard 
+                classCard="projects cursor-pointer"
+                classImage="w-full h-72 object-cover mx-auto rounded-md"
+                classTitle="font-bold p-2"
+                key={project.id}
+                title={project.title} 
+                body={project.body}
+                image={project.image} 
+                links={project.links}
+            />
+
     )
     
     return(
