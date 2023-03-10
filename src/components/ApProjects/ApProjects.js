@@ -8,7 +8,7 @@ const ApProjects = (passData) =>{
     const listProjects = projects && projects.map((project) =>
         
             <ApCard 
-                classCard="projects cursor-pointer"
+                classCard="projects"
                 classImage="w-full h-72 object-cover mx-auto rounded-md"
                 classTitle="font-bold p-2"
                 key={project.id}
