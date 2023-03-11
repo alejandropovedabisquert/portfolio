@@ -127,6 +127,16 @@
                         "gitHubLink": "enlace a github"
                     },
                     "image": "logo-pequenyo.svg"
+                },
+                {
+                    "id": "project-4",
+                    "title": "trabajo 4",
+                    "body": "datos del trabajos 4",
+                    "links":{
+                        "webLink": "enlace a la web",
+                        "gitHubLink": "enlace a github"
+                    },
+                    "image": "logo-pequenyo.svg"
                 }
             ],
             "services":[

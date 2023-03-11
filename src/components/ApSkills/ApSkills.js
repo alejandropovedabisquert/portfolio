@@ -1,21 +1,19 @@
-import ApCard from "../ApCard/ApCard"
-
-
-const ApSkills = (passData) =>{
-    const skills = passData.data.skills
+const ApSkills = (props) =>{
+    const skills = props.data.skills
     
-    const titleClassStyle = passData.titleClassStyle
+    const titleClassStyle = props.titleClassStyle
 
     const listSkills = skills && skills.map((skill) =>
-        <ApCard 
-            classImage="mt-1 ml-1 w-16"
-            classCard="skills flex items-center h-full border-b-2 border-b-secondary-color shadow-lg flex-col md:flex-row"
-            classContent="flex items-end h-full md:relative md:text-xl md:w-full md:h-auto"
-            classTitle="mx-auto"
-            key={skill.id} 
-            title={skill.title} 
-            image={skill.image} 
-        />
+        <div key={skill.id} className="skill flex max-w-xs items-center h-full border-b-2 border-b-secondary-color shadow-lg flex-col md:flex-row">
+            <div className="skill-image">
+                <img src={skill.image} alt={skill.title} className="mt-1 ml-1 w-16"/>
+            </div>
+            <div className="skill-content flex items-end h-full md:relative md:text-xl md:w-full md:h-auto">
+                <div className="skill-title mx-auto">
+                    <h1>{skill.title}</h1>
+                </div>
+            </div>
+        </div>
     )
 
     return(

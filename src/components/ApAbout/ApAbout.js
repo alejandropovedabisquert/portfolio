@@ -8,7 +8,7 @@ const ApAbout = (passData) =>{
 
     const buttonClassStyle = passData.buttonClassStyle
 
-    const profile = passData.data.logos && <img className="rounded-md" src={passData.data.logos && passData.data.logos.perfil} alt="Perfil" width="300px"/>
+    const profile = passData.data.logos && <img className="rounded-md mt-8" src={passData.data.logos && passData.data.logos.perfil} alt="Perfil" width="300px"/>
 
     const rrssList = rrssData && rrssData.map((rrss) =>
         <ApRRSS 
