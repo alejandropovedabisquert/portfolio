@@ -5,7 +5,7 @@ const ApSkills = (props) =>{
     const titleClassStyle = props.titleClassStyle
 
     const listSkills = skills && skills.map((skill) =>
-    <div key={skill.id} className="basis-40 md:basis-80 m-5">
+    <div key={skill.id} className="basis-32 sm:basis-40 md:basis-80 m-2 md:m-3">
         <div className="skill flex max-w-xs items-center h-full border-b-2 border-b-secondary-color shadow-lg flex-col md:flex-row">
             <div className="skill-image">
                 <img src={skill.image} alt={skill.title} className="mt-1 ml-1 w-16"/>
