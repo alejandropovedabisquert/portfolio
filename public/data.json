@@ -24,6 +24,10 @@
                 {
                     "type": "linkedin",
                     "url": "https://www.linkedin.com/in/alejandro-poveda-bisquert/"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/alejandropovdev"
                 }
             ],
             "header":

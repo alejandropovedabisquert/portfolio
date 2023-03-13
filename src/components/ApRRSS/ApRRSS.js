@@ -1,4 +1,4 @@
-import { FaGithub, FaRegEnvelope, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaRegEnvelope, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const ApRRSS = (props) =>{
     const rrss = props.rrss
@@ -19,7 +19,10 @@ const ApRRSS = (props) =>{
                 :rrss.type === 'email'?
                     <a href={rrss.url} target="_blank" rel="noreferrer" className={classStyleLink}><FaRegEnvelope className={classStyleSvg}/></a>
                     
-                :null
+                :rrss.type === 'twitter'?
+                <a href={rrss.url} target="_blank" rel="noreferrer" className={classStyleLink}><FaTwitter className={classStyleSvg}/></a>
+                
+            :null
             }
         </li>
     )
