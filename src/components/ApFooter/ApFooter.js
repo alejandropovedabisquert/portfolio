@@ -27,8 +27,8 @@ const ApFooter = (passData) =>{
                 titleClassStyle={passData.titleClassStyle} 
                 buttonClassStyle={passData.buttonClassStyle}
             />
-            <div className="flex flex-row justify-center pb-10 pt-10 items-center">
-                <ul className="flex flex-row space-x-6 md:space-x-12 items-center">
+            <div className="flex justify-center pb-10 pt-10 items-center">
+                <ul className="flex flex-row sm:space-x-6 md:space-x-12 items-center">
                     {rrssList}
                 </ul>
             </div>
