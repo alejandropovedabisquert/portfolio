@@ -32,7 +32,8 @@
             ],
             "header":
                 {
-                    "title": "Alejandro Poveda",
+                    "name": "Alejandro",
+                    "surname": "Poveda",
                     "subtitle": "Programador FrontEnd"
                 },
             "menu": [

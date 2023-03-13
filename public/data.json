@@ -32,7 +32,8 @@
             ],
             "header":
                 {
-                    "title": "Alejandro Poveda",
+                    "name": "Alejandro",
+                    "surname": "Poveda",
                     "subtitle": "Programador FrontEnd"
                 },
             "menu": [
@@ -105,10 +106,10 @@
                     "title": "Lilith's Garden",
                     "body": "Lilith's Garden es una tienda erótica online que hice como proyecto para el trabajo de fin de grado, la idea surgió por el auge de la digitalización en las tiendas y por los juguetes eróticos en la epoca de pandemia.",
                     "links":{
-                        "webLink": "enlace a la web",
                         "gitHubLink": "https://github.com/alex2001bis/TFG/tree/main/LilithsGarden"
                     },
-                    "image": "portada-liliths-garden.png"
+                    "image": "portada-liliths-garden.png",
+                    "logo": "logo-lilithsgarden.png"
                 },
                 {
                     "id": "project-2",

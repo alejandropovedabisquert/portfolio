@@ -3,8 +3,7 @@ import ApCardProject from "./ApCardProject"
 
 const ApProjects = (props) =>{
     const projects = props.data.projects
-    const titleClassStyle = props.titleClassStyle   
-    const oldClassProjects = "grid gap-10 sm:grid-cols-2 md:p-0 lg:grid-cols-3 xl:grid-cols-4"
+    const titleClassStyle = props.titleClassStyle
 
     const listProjects = projects && projects.map((project) =>
         <ApCardProject 
@@ -13,6 +12,7 @@ const ApProjects = (props) =>{
             title={project.title} 
             body={project.body}
             image={project.image} 
+            logo={project.logo}
             links={project.links}
         />
 

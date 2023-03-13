@@ -5,6 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage:{
+        'gradient-colors' : 'linear-gradient(-45deg, #FF844B, #ED9200)'
+      },
+      backgroundSize:{
+        '400': '400% 400%'
+      },
       screens:{
         'ultrawide': '2000px'
       },
@@ -22,11 +28,16 @@ module.exports = {
         'light-gray': 'rgba(236, 236, 236, 0.85)'
       },
       spacing: {
+        '368px': '368px',
         '128': '32rem',
         '144': '36rem',
         '464': '116rem'
       },
       keyframes:{
+        gradient:{
+            '0%, 100%' :{backgroundSize:'400% 400%', backgroundPosition:'left center'},
+            '50%': {backgroundSize:'400% 400%', backgroundPosition:'right center'}
+        },
         jelly:{
           '0%': { transform: 'matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)' },
           '3.333333%': { transform: 'matrix3d(0.32778, 0, 0, 0, 0, 0.32778, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)' },
@@ -71,6 +82,7 @@ module.exports = {
         }
       },
       animation:{
+        'gradient-animation':'gradient 5s infinite ease',
         'menu-jelly': 'jelly 0.8s linear forwards',
         'wiggle': 'wiggle 1s linear infinite'
       }

@@ -6,13 +6,14 @@ const ApCardProject = (props) =>{
     const title = props.title
     const body = props.body
     const image = props.image
+    const logo = props.logo
     const links = props.links
     
     return (
-            <div className="basis-80 mx-5">
-                <div className="project max-w-sm mx-auto">
-                    <div className="project-image rounded-md shadow-lg transition-all hover:transform hover:scale-105 hover:rotate-6" onClick={()=> setOpen(!open)}>
-                        <img src={image} alt={title} className="w-full h-72 object-cover cursor-pointer mx-auto rounded-md"/>
+            <div className="w-368px mb-5">
+                <div className="project mx-5">
+                    <div className="project-image rounded-md transition-all hover:transform hover:scale-105 hover:rotate-6" onClick={()=> setOpen(!open)}>
+                        <img src={logo ? logo : image} alt={title} className="w-full h-72 object-cover cursor-pointer mx-auto rounded-md"/>
                     </div>
                     <div className="project-content">
                         <div className="project-title p-4 text-xl">

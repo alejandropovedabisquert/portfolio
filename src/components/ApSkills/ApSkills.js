@@ -1,6 +1,5 @@
 const ApSkills = (props) =>{
     const skills = props.data.skills
-    const oldClassSkills = "grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 "
     
     const titleClassStyle = props.titleClassStyle
 
