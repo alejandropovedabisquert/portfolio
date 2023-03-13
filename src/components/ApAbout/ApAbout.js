@@ -27,7 +27,7 @@ const ApAbout = (passData) =>{
                 <h1 className={`${titleClassStyle} grid-cols-title md:grid-cols-about md:w-96`}>Sobre mi</h1>
                 <p className="text-justify max-w-4xl">{about && about.body}</p>
                 <div className="md:text-left md:flex md:flex-row items-center">
-                    <a href={`https://${about && about.curriculum}`} className={`${buttonClassStyle} mt-8`}>Descargar CV</a>
+                    <a href={`${about && about.curriculum}`} className={`${buttonClassStyle} mt-8`}>Descargar CV</a>
                     <div className="flex flex-row mt-8">
                         <ul className="flex flex-row space-x-6 mx-auto md:ml-10">
                             {rrssList}
