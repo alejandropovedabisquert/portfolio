@@ -17,8 +17,6 @@ const ApModal = (props) => {
         }
     }
 
-    const oldClass ="grid grid-cols-1 xl:grid-cols-5 m-10 md:m-20 "
-
     return(
         <div className="fixed top-0 left-0 right-0 bottom-0 z-50">
             <div className="fixed top-0 left-0 right-0 flex items-center justify-center bottom-0 bg-light-gray" onClick={() => setOpen(!open)}></div>
@@ -26,7 +24,7 @@ const ApModal = (props) => {
                 <div className="modal-content flex flex-wrap basis-3/4 bg-white  overflow-auto h-144 rounded-md z-50 ultrawide:w-464">
                     <div className="modal-content-left xl:basis-4/6 p-8">
                         <div className="modal-image">
-                            <img src={props.image} alt={props.title} className="rounded-md"/>
+                            <a href={props.image} target="_blank" rel="noreferrer"><img src={props.image} alt={props.title} className="rounded-md"/></a>
                         </div>
                     </div>
                     <div className="modal-content-right xl:basis-2/6 p-8 text-left">
