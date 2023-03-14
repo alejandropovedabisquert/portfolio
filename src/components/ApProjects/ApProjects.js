@@ -19,11 +19,9 @@ const ApProjects = (props) =>{
     
     return(
         <div id="projects" className="text-center transition-all p-8 md:pt-8 md:px-0 lg:p-8">
-            <div data-aos="fade-up">
-                <h1 className={`${titleClassStyle} w-full md:w-7/12 mx-auto pb-4 md:pb-8`}>Proyectos</h1>
-                <div className="flex flex-wrap justify-center">
-                    {listProjects}
-                </div>
+            <h1 className={`${titleClassStyle} w-full md:w-7/12 mx-auto pb-4 md:pb-8`} data-aos="fade-up">Proyectos</h1>
+            <div className="flex flex-wrap justify-center">
+                {listProjects}
             </div>
         </div>
     )

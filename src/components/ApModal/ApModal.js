@@ -8,14 +8,13 @@ const ApModal = (props) => {
     const buttonClassStyle= props.buttonClassStyle
 
     useEffect(()=>{
+        const detectKeyDown= (e) =>{
+            if (e.key === "Escape") {
+                setOpen(!open)
+            }
+        }
         document.addEventListener('keydown', detectKeyDown, true)
     })
-
-    const detectKeyDown= (e) =>{
-        if (e.key === "Escape") {
-            setOpen(!open)
-        }
-    }
 
     return(
         <div className="fixed top-0 left-0 right-0 bottom-0 z-50">
