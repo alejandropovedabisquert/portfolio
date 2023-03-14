@@ -60,9 +60,9 @@ const ApMenu = (passData)=>{
     return(
         <nav className="nav fixed top-0 z-50 w-full">
             <div className="grid">
-                <div className="link-list w-full">
+                <div ref={ref} className="link-list absolute right-0">
                     <ApMenuButton open={open} setOpen={setOpen}/>
-                    <div ref={ref} className={`circle-menu shadow-xl origin-[100%_0%] absolute right-0 rounded-bl-[500px] ease duration-300 ${open ? 'w-[350px] h-[350px] md:w-[500px] md:h-[500px] bg-white border-l-4 border-b-4 border-secondary-color animate-menu-jelly': 'w-0 h-0'}`}>
+                    <div className={`circle-menu shadow-xl origin-[100%_0%] absolute right-0 rounded-bl-[500px] ease duration-300 ${open ? 'w-[350px] h-[350px] md:w-[500px] md:h-[500px] bg-white border-l-4 border-b-4 border-secondary-color animate-menu-jelly': 'w-0 h-0'}`}>
                         <div className={`${open ? 'transition-opacity duration-300 opacity-100 delay-300': 'opacity-0'} `}>
                             {
                                 open && 
