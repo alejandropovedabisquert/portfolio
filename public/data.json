@@ -1,166 +1,165 @@
 {
-    "portfolio":
-        {
-            "logos":
+    "portfolio": {
+        "logos": {
+            "logoGrande": "logo-grande.svg",
+            "logoPequenyo": "logo-pequenyo.svg",
+            "perfil": "perfil.jpeg",
+            "bannerLogoGrande": "banner-logo-grande.svg",
+            "bannerLogoPequenyo": "banner-logo-pequenyo.svg",
+            "fondoTeclado": "fondo-teclado.jpg",
+            "fondoWave": "fondo-wave.svg",
+            "fondoFooterWave": "fondo-footer-wave.svg"
+        },
+        "rrss": [
             {
-                "logoGrande": "logo-grande.svg",
-                "logoPequenyo": "logo-pequenyo.svg",
-                "perfil": "perfil.jpeg",
-                "bannerLogoGrande": "banner-logo-grande.svg",
-                "bannerLogoPequenyo": "banner-logo-pequenyo.svg",
-                "fondoTeclado": "fondo-teclado.jpg",
-                "fondoWave": "fondo-wave.svg",
-                "fondoFooterWave": "fondo-footer-wave.svg"
+                "type": "email",
+                "url": "mailto:alejandro2001bis@gmail.com"
             },
-            "rrss":[
-                {
-                    "type": "email",
-                    "url": "mailto:alejandro2001bis@gmail.com"
-                },
-                {
-                    "type": "github",
-                    "url": "https://github.com/alex2001bis"
-                },
-                {
-                    "type": "linkedin",
-                    "url": "https://www.linkedin.com/in/alejandro-poveda-bisquert/"
-                },
-                {
-                    "type": "twitter",
-                    "url": "https://twitter.com/alejandropovdev"
-                }
-            ],
-            "header":
-                {
-                    "name": "Alejandro",
-                    "surname": "Poveda",
-                    "subtitle": "Programador FrontEnd"
-                },
-            "menu": [
-                {
-                    "title": "Sobre Mi", 
-                    "url":"about"
-                },
-                {
-                    "title": "Habilidades", 
-                    "url":"skills"
-                },
-                {
-                    "title": "Proyectos", 
-                    "url":"projects"
-                },
-                {
-                    "title": "Contacto", 
-                    "url":"contact"
-                }
-            ],
-            "about":{
-                "body": "Miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau miau ",
-                "curriculum": "CVAlejandroPoveda.pdf"
+            {
+                "type": "github",
+                "url": "https://github.com/alex2001bis"
             },
-            "skills":[
-                {
-                    "id": "skill-1",
-                    "title": "React",
-                    "image": "react-logo.png"
+            {
+                "type": "linkedin",
+                "url": "https://www.linkedin.com/in/alejandro-poveda-bisquert/"
+            },
+            {
+                "type": "twitter",
+                "url": "https://twitter.com/alejandropovdev"
+            }
+        ],
+        "header": {
+            "name": "Alejandro",
+            "surname": "Poveda",
+            "subtitle": "Programador FrontEnd"
+        },
+        "menu": [
+            {
+                "title": "Sobre Mi",
+                "url": "about"
+            },
+            {
+                "title": "Habilidades",
+                "url": "skills"
+            },
+            {
+                "title": "Proyectos",
+                "url": "projects"
+            },
+            {
+                "title": "Contacto",
+                "url": "contact"
+            }
+        ],
+        "about": {
+            "body": "<p>¡Hola! Soy Alejandro Poveda un programador junior en Valencia.</p><p>Soy una persona bastante curiosa, estoy muy interesado en cualquier tipo de lenguaje de programación que me llame la atención y siempre voy intentando aprender para evolucionar como profesional. Actualmente estoy trabajando en <a href='https://digitalvalue.es/' target='_blank'>Digital Value</a> como soporte técnico y programador web.</p><p>Aunque actualmente esté trabajando siempre estoy dispuesto a escuchar ofertas para nuevas oportunidades.</p>",
+            "curriculum": "CVAlejandroPoveda.pdf"
+        },
+        "skills": [
+            {
+                "id": "skill-1",
+                "title": "React",
+                "image": "react-logo.png",
+                "duration": 700
+            },
+            {
+                "id": "skill-2",
+                "title": "Tailwind",
+                "image": "tailwind-logo.png",
+                "duration": 710
+            },
+            {
+                "id": "skill-3",
+                "title": "JavaScript",
+                "image": "javascript-logo.svg"
+            },
+            {
+                "id": "skill-4",
+                "title": "HTML",
+                "image": "html-logo.svg"
+            },
+            {
+                "id": "skill-5",
+                "title": "CSS",
+                "image": "css-logo.svg"
+            },
+            {
+                "id": "skill-6",
+                "title": "SASS",
+                "image": "sass-logo.png"
+            },
+            {
+                "id": "skill-7",
+                "title": "Laravel",
+                "image": "laravel-logo.png"
+            },
+            {
+                "id": "skill-8",
+                "title": "Bootstrap",
+                "image": "bootstrap-logo.png"
+            }
+        ],
+        "projects": [
+            {
+                "id": "project-1",
+                "title": "Lilith's Garden",
+                "body": "Lilith's Garden es una tienda erótica online que hice como proyecto para el trabajo de fin de grado, la idea surgió por el auge de la digitalización en las tiendas y por los juguetes eróticos en la epoca de pandemia.",
+                "links": {
+                    "gitHubLink": "https://github.com/alex2001bis/TFG/tree/main/LilithsGarden"
                 },
-                {
-                    "id": "skill-2",
-                    "title": "Tailwind",
-                    "image": "tailwind-logo.png"
+                "image": "portada-liliths-garden.png",
+                "logo": "logo-lilithsgarden.png"
+            },
+            {
+                "id": "project-2",
+                "title": "trabajo 2",
+                "body": "datos del trabajo 2",
+                "links": {
+                    "webLink": "enlace a la web",
+                    "gitHubLink": "enlace a github"
                 },
-                {
-                    "id": "skill-3",
-                    "title": "JavaScript",
-                    "image": "javascript-logo.svg"
+                "image": "logo-pequenyo.svg"
+            },
+            {
+                "id": "project-3",
+                "title": "trabajo 3",
+                "body": "datos del trabajos 3",
+                "links": {
+                    "webLink": "enlace a la web",
+                    "gitHubLink": "enlace a github"
                 },
-                {
-                    "id": "skill-4",
-                    "title": "HTML",
-                    "image": "html-logo.svg"
+                "image": "logo-pequenyo.svg"
+            },
+            {
+                "id": "project-4",
+                "title": "trabajo 4",
+                "body": "datos del trabajos 4",
+                "links": {
+                    "webLink": "enlace a la web",
+                    "gitHubLink": "enlace a github"
                 },
-                {
-                    "id": "skill-5",
-                    "title": "CSS",
-                    "image": "css-logo.svg"
-                },
-                {
-                    "id": "skill-6",
-                    "title": "SASS",
-                    "image": "sass-logo.png"
-                },
-                {
-                    "id": "skill-7",
-                    "title": "Laravel",
-                    "image": "laravel-logo.png"
-                },
-                {
-                    "id": "skill-8",
-                    "title": "Bootstrap",
-                    "image": "bootstrap-logo.png"
-                }
-            ],
-            "projects":[
-                {
-                    "id": "project-1",
-                    "title": "Lilith's Garden",
-                    "body": "Lilith's Garden es una tienda erótica online que hice como proyecto para el trabajo de fin de grado, la idea surgió por el auge de la digitalización en las tiendas y por los juguetes eróticos en la epoca de pandemia.",
-                    "links":{
-                        "gitHubLink": "https://github.com/alex2001bis/TFG/tree/main/LilithsGarden"
-                    },
-                    "image": "portada-liliths-garden.png",
-                    "logo": "logo-lilithsgarden.png"
-                },
-                {
-                    "id": "project-2",
-                    "title": "trabajo 2",
-                    "body": "datos del trabajo 2",
-                    "links":{
-                        "webLink": "enlace a la web",
-                        "gitHubLink": "enlace a github"
-                    },
-                    "image": "logo-pequenyo.svg"
-                },
-                {
-                    "id": "project-3",
-                    "title": "trabajo 3",
-                    "body": "datos del trabajos 3",
-                    "links":{
-                        "webLink": "enlace a la web",
-                        "gitHubLink": "enlace a github"
-                    },
-                    "image": "logo-pequenyo.svg"
-                },
-                {
-                    "id": "project-4",
-                    "title": "trabajo 4",
-                    "body": "datos del trabajos 4",
-                    "links":{
-                        "webLink": "enlace a la web",
-                        "gitHubLink": "enlace a github"
-                    },
-                    "image": "logo-pequenyo.svg"
-                }
-            ],
-            "services":[
-                {
-                    "id": "service-1",
-                    "title": "servicios",
-                    "body": "datos de los servicios",
-                    "image": "logo-pequenyo.svg"
-                },
-                {
-                    "id": "service-2",
-                    "title": "servicios",
-                    "body": "datos de los servicios",
-                    "image": "logo-pequenyo.svg"
-                },
-                {
-                    "id": "service-3",
-                    "title": "servicios",
-                    "body": "datos de los servicios",
-                    "image": "logo-pequenyo.svg"
-                }
-            ]
-        }
+                "image": "logo-pequenyo.svg"
+            }
+        ],
+        "services": [
+            {
+                "id": "service-1",
+                "title": "servicios",
+                "body": "datos de los servicios",
+                "image": "logo-pequenyo.svg"
+            },
+            {
+                "id": "service-2",
+                "title": "servicios",
+                "body": "datos de los servicios",
+                "image": "logo-pequenyo.svg"
+            },
+            {
+                "id": "service-3",
+                "title": "servicios",
+                "body": "datos de los servicios",
+                "image": "logo-pequenyo.svg"
+            }
+        ]
+    }
 }

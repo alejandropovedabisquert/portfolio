@@ -7,5 +7,12 @@
 html {
     scroll-behavior: smooth;
 }
+#about .text-justify a{
+    color: var(--secondary-color);
+}
+#about .text-justify a:hover{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
 @tailwind components;
 @tailwind utilities;

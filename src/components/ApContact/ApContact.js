@@ -48,7 +48,7 @@ const ApContact = (passData) =>{
     }
 
     return(
-        <div id="contact" className="text-left container relative mx-auto p-8 pb-0 md:px-0">
+        <div id="contact" className="text-left container relative mx-auto p-8 pb-0 md:px-0" data-aos="fade-up" data-aos-duration="1000">
             <div className="py-8 lg:pb-8 px-4 md:px-8 mx-auto max-w-screen-md bg-white rounded-md drop-shadow-lg">
                 {isLoading 
                     ?   <div className="absolute flex bg-gray-300 opacity-40 top-0 left-0 rounded-md z-10 bg- w-full h-full">
