@@ -52,6 +52,8 @@
             }
         ],
         "about": {
+            "foto": "perfil.jpeg",
+            "alt": "Foto de perfil de Alejandro Poveda",
             "body": "<p>¡Hola! Soy Alejandro Poveda un programador junior en Valencia.</p><p>Soy una persona bastante curiosa, estoy muy interesado en cualquier tipo de lenguaje de programación que me llame la atención y siempre voy intentando aprender para evolucionar como profesional. Actualmente estoy trabajando en <a href='https://digitalvalue.es/' target='_blank'>Digital Value</a> como soporte técnico y programador web.</p><p>Aunque actualmente esté trabajando siempre estoy dispuesto a escuchar ofertas para nuevas oportunidades.</p>",
             "curriculum": "CVAlejandroPoveda.pdf"
         },

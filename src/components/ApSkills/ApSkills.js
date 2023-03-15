@@ -8,7 +8,7 @@ const ApSkills = (props) =>{
     <div key={skill.id} className="basis-32 sm:basis-40 md:basis-80 m-2 md:m-3" data-aos="fade-up" data-aos-duration="1200">
         <div className="skill flex max-w-xs items-center h-full border-b-2 border-b-secondary-color shadow-lg flex-col md:flex-row">
             <div className="skill-image">
-                <img src={skill.image} alt={skill.title} className="mt-1 ml-1 w-16"/>
+                <img src={skill.image} alt={skill.title} title={skill.title} className="mt-1 ml-1 w-16"/>
             </div>
             <div className="skill-content flex items-end h-full md:relative md:text-xl md:w-full md:h-auto">
                 <div className="skill-title mx-auto">
