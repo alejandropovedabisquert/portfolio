@@ -31,6 +31,8 @@ module.exports = {
         '368px': '368px',
         '128': '32rem',
         '144': '36rem',
+        '160': '40rem',
+        '320': '80rem',
         '464': '116rem'
       },
       keyframes:{

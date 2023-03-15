@@ -28,7 +28,7 @@ const ApAbout = (passData) =>{
                 <h1 className={`${titleClassStyle} grid-cols-title md:grid-cols-about md:w-96`}>Sobre mi</h1>
                 {about && about.body ? <p className="text-justify text-lg max-w-4xl" dangerouslySetInnerHTML={{__html: `${about && about.body}`}}></p> : null}
                 <div className="md:text-left md:flex md:flex-row items-center">
-                    <a href={`${about && about.curriculum}`} className={`${buttonClassStyle} mt-8`}>Descargar CV</a>
+                    <a href={`${about && about.curriculum}`} className={`${buttonClassStyle} mt-8`} target="_blank" rel="noreferrer">Descargar CV</a>
                     <div className="flex flex-row mt-8">
                         <ul className="flex flex-row space-x-6 mx-auto md:ml-10">
                             {rrssList}

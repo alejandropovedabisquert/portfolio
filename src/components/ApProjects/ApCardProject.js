@@ -12,7 +12,7 @@ const ApCardProject = (props) =>{
     
     return (
             <div className="w-368px mb-5">
-                <div className="project mx-5" data-aos="fade-up" data-aos-duration="1400">
+                <div className="project md:mx-5" data-aos="fade-up" data-aos-duration="1400">
                     <div className="project-image rounded-md transition-all hover:transform hover:scale-105 hover:rotate-6" onClick={()=> setOpen(!open)}>
                         <img src={logo ? logo : image} alt={title} className="w-full h-72 object-cover object-center cursor-pointer mx-auto rounded-md"/>
                     </div>

@@ -20,7 +20,7 @@ const ApModal = (props) => {
         <div className="fixed top-0 left-0 right-0 bottom-0 z-50">
             <div className="fixed top-0 left-0 right-0 flex items-center justify-center bottom-0 bg-light-gray" onClick={() => setOpen(!open)}></div>
             <div className="modal flex items-center justify-center h-full">
-                <div className="modal-content flex flex-wrap basis-3/4 bg-white  overflow-auto h-144 rounded-md z-50 ultrawide:w-464">
+                <div className="modal-content flex flex-wrap basis-5/6 md:basis-3/4 xl:basis-320 bg-white overflow-auto h-5/6 md:h-160 rounded-md z-50 ultrawide:w-464">
                     <div className="modal-content-left xl:basis-4/6 p-8">
                         <div className="modal-image">
                             <a href={props.image} target="_blank" rel="noreferrer"><img src={props.image} alt={props.title} className="rounded-md"/></a>
