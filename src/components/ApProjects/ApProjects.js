@@ -10,6 +10,7 @@ const ApProjects = (props) =>{
             key={project.id}
             title={project.title} 
             body={project.body}
+            usedSkills={project.usedSkills}
             image={project.image} 
             logo={project.logo}
             links={project.links}

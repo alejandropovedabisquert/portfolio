@@ -105,42 +105,25 @@
             {
                 "id": "project-1",
                 "title": "Lilith's Garden",
-                "body": "Lilith's Garden es una tienda erótica online que hice como proyecto para el trabajo de fin de grado, la idea surgió por el auge de la digitalización en las tiendas y por los juguetes eróticos en la época de pandemia.",
+                "body": "Lilith's Garden es una tienda erótica online que hice como proyecto para el trabajo de fin de grado, la idea surgió por el auge de la digitalización en las tiendas y por los juguetes eróticos en la época de pandemia. </br> <strong>(Pendiente de crear una demo)<strong>",
                 "links": {
                     "gitHubLink": "https://github.com/alex2001bis/TFG/tree/main/LilithsGarden"
                 },
+                "usedSkills": ["Laravel","JavaScript","Bootstrap", "CSS"],
                 "image": "portada-liliths-garden.png",
                 "logo": "logo-lilithsgarden.png"
             },
             {
                 "id": "project-2",
-                "title": "trabajo 2",
-                "body": "datos del trabajo 2",
+                "title": "Portfolio",
+                "body": "Este proyecto es mi propio portfolio, en él he puesto en práctica los conocimientos adquiridos en los cursos de Ract.",
                 "links": {
-                    "webLink": "enlace a la web",
-                    "gitHubLink": "enlace a github"
+                    "webLink": "https://portfolio-six-chi-81.vercel.app/",
+                    "gitHubLink": "https://github.com/alex2001bis/portfolio"
                 },
-                "image": "logo-pequenyo.svg"
-            },
-            {
-                "id": "project-3",
-                "title": "trabajo 3",
-                "body": "datos del trabajos 3",
-                "links": {
-                    "webLink": "enlace a la web",
-                    "gitHubLink": "enlace a github"
-                },
-                "image": "logo-pequenyo.svg"
-            },
-            {
-                "id": "project-4",
-                "title": "trabajo 4",
-                "body": "datos del trabajos 4",
-                "links": {
-                    "webLink": "enlace a la web",
-                    "gitHubLink": "enlace a github"
-                },
-                "image": "logo-pequenyo.svg"
+                "usedSkills": ["React", "JavaScript", "Tailwind"],
+                "logo": "logo-grande-transparente.svg",
+                "image": "portada-portfolio.png"
             }
         ],
         "services": [

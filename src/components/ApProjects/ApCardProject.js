@@ -9,6 +9,7 @@ const ApCardProject = (props) =>{
     const image = props.image
     const logo = props.logo
     const links = props.links
+    const usedSkills = props.usedSkills
     
     return (
             <div className="w-368px mb-5">
@@ -28,6 +29,7 @@ const ApCardProject = (props) =>{
                                 image={image} 
                                 title={title} 
                                 body={body} 
+                                usedSkills={usedSkills}
                                 links={links} 
                                 setOpen={setOpen}
                                 open={open}
