@@ -1,4 +1,6 @@
 import { useEffect } from "react"
+import { FaSpinner } from "react-icons/fa";
+
 
 
 const ApModal = (props) => {
@@ -24,7 +26,12 @@ const ApModal = (props) => {
                 <div className="modal-content relative flex flex-wrap basis-5/6 md:basis-3/4 xl:basis-320 bg-white overflow-auto h-96 sm:h-160 md:h-auto rounded-md z-50 ultrawide:w-464">
                     <div className="modal-content-left xl:basis-4/6 p-8">
                         <div className="modal-image">
-                            <a href={props.image} target="_blank" rel="noreferrer"><img src={props.image} alt={props.title} className="rounded-md"/></a>
+                           {props.image 
+                                ? <a href={props.image} target="_blank" rel="noreferrer"><img src={props.image} alt={props.title} className="rounded-md"/></a> 
+                                : <div className="absolute flex bg-gray-300 opacity-40 top-0 left-0 rounded-md z-10 bg- w-full h-full">
+                                    <FaSpinner className="animate-spin h-16 w-16 mx-auto self-center"/>
+                                  </div>
+                            } 
                         </div>
                     </div>
                     <div className="modal-content-right xl:basis-2/6 p-8 text-left">
