@@ -28,9 +28,7 @@ const ApModal = (props) => {
                         <div className="modal-image">
                            {props.image 
                                 ? <a href={props.image} target="_blank" rel="noreferrer"><img src={props.image} alt={props.title} className="rounded-md"/></a> 
-                                : <div className="absolute flex bg-gray-300 opacity-40 top-0 left-0 rounded-md z-10 bg- w-full h-full">
-                                    <FaSpinner className="animate-spin h-16 w-16 mx-auto self-center"/>
-                                  </div>
+                                : <FaSpinner className="animate-spin h-16 w-16 mx-auto self-center"/>
                             } 
                         </div>
                     </div>
