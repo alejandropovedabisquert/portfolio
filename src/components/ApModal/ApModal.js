@@ -7,7 +7,7 @@ const ApModal = (props) => {
     const open = props.open
     const setOpen = props.setOpen
     const buttonClassStyle= props.buttonClassStyle
-    const closeButton = "border-2 cursor-pointer absolute rounded-bl-md rounded-tr-md sm:rounded-tl-md right-0 top-0 sm:bottom-0 px-2 border-secondary-color shadow-md transition-all font-bold duration-300 hover:text-white before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:content-[''] before:absolute before:top-0 before:left-0 before:w-0 before:-z-10 before:bg-primary-color before:transition-all before:duration-300 before:hover:w-full"
+    const closeButton = "border-2 cursor-pointer sm:absolute rounded-bl-md sm:rounded-bl-none rounded-tr-md sm:rounded-tr-none sm:rounded-tl-md sm:rounded-br-md right-0 sm:bottom-0 px-2 border-secondary-color shadow-md transition-all font-bold duration-300 hover:text-white before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:content-[''] before:absolute before:top-0 before:left-0 before:w-0 before:-z-10 before:bg-primary-color before:transition-all before:duration-300 before:hover:w-full"
     useEffect(()=>{
         const detectKeyDown= (e) =>{
             if (e.key === "Escape") {
