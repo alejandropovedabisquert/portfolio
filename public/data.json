@@ -118,7 +118,7 @@
                 "title": "Portfolio",
                 "body": "Este proyecto es mi propio portfolio, en él he puesto en práctica los conocimientos adquiridos en los cursos de React.",
                 "links": {
-                    "webLink": "https://portfolio-six-chi-81.vercel.app/",
+                    "webLink": "https://alejandropoveda.vercel.app/",
                     "gitHubLink": "https://github.com/alex2001bis/portfolio"
                 },
                 "usedSkills": ["React", "JavaScript", "Tailwind"],
