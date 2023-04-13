@@ -7,10 +7,10 @@
 html {
     scroll-behavior: smooth;
 }
-#about .text-justify a{
+#about .text-justify a, .modal-body a{
     color: var(--secondary-color);
 }
-#about .text-justify a:hover{
+#about .text-justify a:hover, .modal-body a{
     color: var(--primary-color);
     text-decoration: underline;
 }
