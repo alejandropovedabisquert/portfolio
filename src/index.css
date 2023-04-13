@@ -10,7 +10,7 @@ html {
 #about .text-justify a, .modal-body a{
     color: var(--secondary-color);
 }
-#about .text-justify a:hover, .modal-body a{
+#about .text-justify a:hover, .modal-body a:hover{
     color: var(--primary-color);
     text-decoration: underline;
 }
