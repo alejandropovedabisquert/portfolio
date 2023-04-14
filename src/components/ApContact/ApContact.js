@@ -23,7 +23,7 @@ const ApContact = (passData) =>{
     const sendEmail = (e) =>{
         setIsLoading(true)
         e.preventDefault()
-        emailjs.sendForm('service_ybqrbf6', 'template_uf8oruc', form.current, 'RzrOefDvuoF6uMf1O')
+        emailjs.sendForm('service_qdy6zei', 'template_yskcpdc', form.current, 'SH6I0p1KRDU6rFiek')
             .then((result) => {
                 setIsLoading(false)
                 e.target.reset()

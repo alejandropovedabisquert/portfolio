@@ -13,11 +13,11 @@
         "rrss": [
             {
                 "type": "email",
-                "url": "mailto:alejandro2001bis@gmail.com"
+                "url": "mailto:alejandropovedabisquert@gmail.com"
             },
             {
                 "type": "github",
-                "url": "https://github.com/alex2001bis"
+                "url": "https://github.com/alejandropovedabisquert"
             },
             {
                 "type": "linkedin",
@@ -30,7 +30,7 @@
         ],
         "header": {
             "name": "Alejandro",
-            "surname": "Poveda",
+            "surname": "Poveda Bisquert",
             "subtitle": "Programador FrontEnd"
         },
         "menu": [
@@ -53,8 +53,8 @@
         ],
         "about": {
             "foto": "perfil.jpeg",
-            "alt": "Foto de perfil de Alejandro Poveda",
-            "body": "<p>¡Hola! Soy Alejandro Poveda un programador junior en Valencia.</p><p>Soy una persona bastante curiosa, estoy muy interesado en cualquier tipo de lenguaje de programación que me llame la atención y siempre voy intentando aprender para evolucionar como profesional. En estos momentos estoy aprendiendo a utilizar React y Tailwind para especializarme en FrontEnd. Actualmente estoy trabajando en <a href='https://digitalvalue.es/' target='_blank'>Digital Value</a> como soporte técnico y programador web.</p><p>Aunque actualmente esté trabajando siempre estoy dispuesto a escuchar ofertas para nuevas oportunidades.</p>",
+            "alt": "Foto de perfil de Alejandro Poveda Bisquert",
+            "body": "<p>¡Hola! Soy Alejandro Poveda Bisquert un programador junior en Valencia.</p><p>Soy una persona bastante curiosa, estoy muy interesado en cualquier tipo de lenguaje de programación que me llame la atención y siempre voy intentando aprender para evolucionar como profesional. En estos momentos estoy aprendiendo a utilizar React y Tailwind para especializarme en FrontEnd. Actualmente estoy trabajando en <a href='https://digitalvalue.es/' target='_blank'>Digital Value</a> como soporte técnico y programador web.</p><p>Aunque actualmente esté trabajando siempre estoy dispuesto a escuchar ofertas para nuevas oportunidades.</p>",
             "curriculum": "CVAlejandroPoveda.pdf"
         },
         "skills": [
@@ -108,7 +108,7 @@
                 "body": "TODO List DnD es un proyecto que he creado para practicar con React y Tailwind, he utilizado dos librerias para ayudarme a crear este proyecto, en este caso he utilizado \"react-beautiful-dnd\" y \"React Router\".</br>Como resumen de este proyecto es para crear listados de tareas que podras cambiar de posición arrastrándolo, algo similar a <a href='https://trello.com' target='_blank'>Trello</a>",
                 "links": {
                     "webLink": "https://todo-list-v2-coral.vercel.app/",
-                    "gitHubLink": "https://github.com/alex2001bis/todo-list-v2"
+                    "gitHubLink": "https://github.com/alejandropovedabisquert/todo-list-v2"
                 },
                 "usedSkills": ["React","JavaScript","Tailwind"],
                 "image": "portada-todo-list.png",
@@ -120,7 +120,7 @@
                 "body": "Este proyecto es mi propio portfolio, en él he puesto en práctica los conocimientos adquiridos en los cursos de React.",
                 "links": {
                     "webLink": "https://alejandropoveda.vercel.app/",
-                    "gitHubLink": "https://github.com/alex2001bis/portfolio"
+                    "gitHubLink": "https://github.com/alejandropovedabisquert/portfolio"
                 },
                 "usedSkills": ["React", "JavaScript", "Tailwind"],
                 "logo": "logo-grande-transparente.svg",
@@ -131,7 +131,7 @@
                 "title": "Lilith's Garden",
                 "body": "Lilith's Garden es una tienda erótica online que hice como proyecto para el trabajo de fin de grado, la idea surgió por el auge de la digitalización en las tiendas y por los juguetes eróticos en la época de pandemia. </br> <strong>(Pendiente de crear una demo)<strong>",
                 "links": {
-                    "gitHubLink": "https://github.com/alex2001bis/TFG/tree/main/LilithsGarden"
+                    "gitHubLink": "https://github.com/alejandropovedabisquert/TFG/tree/main/LilithsGarden"
                 },
                 "usedSkills": ["Laravel","JavaScript","Bootstrap", "CSS"],
                 "image": "portada-liliths-garden.png",
