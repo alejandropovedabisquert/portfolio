@@ -3,7 +3,7 @@
         "logos": {
             "logoGrande": "logo-grande.svg",
             "logoPequenyo": "logo-pequenyo.svg",
-            "perfil": "perfil.jpeg",
+            "perfil": "perfil.jpg",
             "bannerLogoGrande": "banner-logo-grande.svg",
             "bannerLogoPequenyo": "banner-logo-pequenyo.svg",
             "fondoTeclado": "fondo-teclado.jpg",
@@ -22,16 +22,12 @@
             {
                 "type": "linkedin",
                 "url": "https://www.linkedin.com/in/alejandro-poveda-bisquert/"
-            },
-            {
-                "type": "twitter",
-                "url": "https://twitter.com/alejandropovdev"
             }
         ],
         "header": {
             "name": "Alejandro",
             "surname": "Poveda Bisquert",
-            "subtitle": "Programador FrontEnd"
+            "subtitle": "FrontEnd Developer"
         },
         "menu": [
             {
@@ -52,9 +48,9 @@
             }
         ],
         "about": {
-            "foto": "perfil.jpeg",
+            "foto": "perfil.jpg",
             "alt": "Foto de perfil de Alejandro Poveda Bisquert",
-            "body": "<p>¡Hola! Soy Alejandro Poveda Bisquert un programador junior en Valencia.</p><p>Soy una persona bastante curiosa, estoy muy interesado en cualquier tipo de lenguaje de programación que me llame la atención y siempre voy intentando aprender para evolucionar como profesional. En estos momentos estoy aprendiendo a utilizar React y Tailwind para especializarme en FrontEnd. Actualmente estoy trabajando en <a href='https://digitalvalue.es/' target='_blank'>Digital Value</a> como soporte técnico y programador web.</p><p>Aunque actualmente esté trabajando siempre estoy dispuesto a escuchar ofertas para nuevas oportunidades.</p>",
+            "body": "<p>¡Hola! Soy Alejandro Poveda Bisquert un programador junior en Valencia.</p><p>Soy una persona bastante curiosa, estoy muy interesado en cualquier tipo de lenguaje de programación que me llame la atención y siempre voy intentando aprender para evolucionar como profesional. En estos momentos estoy aprendiendo a utilizar React y Tailwind para especializarme en FrontEnd. Actualmente estoy trabajando en <a href='https://www.avantio.com/' target='_blank'>Avantio</a> como Web Developer.</p>",
             "curriculum": "CVAlejandroPovedaBisquert.pdf"
         },
         "skills": [
@@ -119,7 +115,7 @@
                 "title": "Portfolio",
                 "body": "Este proyecto es mi propio portfolio, en él he puesto en práctica los conocimientos adquiridos en los cursos de React.",
                 "links": {
-                    "webLink": "https://alejandropoveda.vercel.app/",
+                    "webLink": "https://alejandropoveda.dev/",
                     "gitHubLink": "https://github.com/alejandropovedabisquert/portfolio"
                 },
                 "usedSkills": ["React", "JavaScript", "Tailwind"],
