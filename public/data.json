@@ -100,6 +100,18 @@
         "projects": [
             {
                 "id": "project-1",
+                "title": "Daily Trends",
+                "body": "El Daily Trends es un proyecto técnico que desarrollé durante el proceso de selección de <a href='https://www.avantio.com' target='_blank'>Avantio</a>. El proyecto consistió en la creación de una aplicación web capaz de recopilar noticias utilizando técnicas de 'Web Scraping'. En concreto, se me pidió extraer información de dos fuentes web diferentes, así como la implementación de funciones para crear, editar y eliminar noticias personalizadas. Para la implementación de este proyecto, opté por utilizar React y Tailwind, y aproveché la funcionalidad de la librería '<a href='https://cheerio.js.org/' target='_blank'>Cheerio</a>' para facilitar la manipulación de los elementos HTML y XML.",
+                "links": {
+                    "webLink": "https://daily-trends-theta.vercel.app/",
+                    "gitHubLink": "https://github.com/alejandropovedabisquert/prueba-tecnica-alejandro"
+                },
+                "usedSkills": ["React","JavaScript","Tailwind","Cheerio"],
+                "image": "portada-daily-trends.png",
+                "logo": "Logo-DAILY-TRENDS.svg"
+            },
+            {
+                "id": "project-2",
                 "title": "TODO List DnD",
                 "body": "TODO List DnD es un proyecto que he creado para practicar con React y Tailwind, he utilizado dos librerias para ayudarme a crear este proyecto, en este caso he utilizado \"react-beautiful-dnd\" y \"React Router\".</br>Como resumen de este proyecto es para crear listados de tareas que podras cambiar de posición arrastrándolo, algo similar a <a href='https://trello.com' target='_blank'>Trello</a>",
                 "links": {
@@ -111,7 +123,7 @@
                 "logo": "Logo-TODO.svg"
             },
             {
-                "id": "project-2",
+                "id": "project-3",
                 "title": "Portfolio",
                 "body": "Este proyecto es mi propio portfolio, en él he puesto en práctica los conocimientos adquiridos en los cursos de React.",
                 "links": {
@@ -123,7 +135,7 @@
                 "image": "portada-portfolio.png"
             },
             {
-                "id": "project-3",
+                "id": "project-4",
                 "title": "Lilith's Garden",
                 "body": "Lilith's Garden es una tienda erótica online que hice como proyecto para el trabajo de fin de grado, la idea surgió por el auge de la digitalización en las tiendas y por los juguetes eróticos en la época de pandemia. </br> <strong>(Pendiente de crear una demo)<strong>",
                 "links": {

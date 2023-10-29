@@ -32,7 +32,7 @@ const ApModal = (props) => {
                     </div>
                     <div className="modal-content-right xl:basis-2/6 p-8 text-left">
                         <h2 className="modal-title text-4xl mb-8">{props.title}</h2>
-                        <div className="modal-body mb-4" dangerouslySetInnerHTML={{__html: `${props.body}`}}></div>
+                        <div className="modal-body mb-4 text-justify" dangerouslySetInnerHTML={{__html: `${props.body}`}}></div>
                         {usedSkills 
                             ? <div className="modal-usedSkils py-4 flex flex-wrap">
                                 {usedSkills && usedSkills.map((skill, index) =>(
